@@ -1,0 +1,29 @@
+/*轮播图下边框*/
+.carousel {
+    margin: 30px;
+    box-shadow: 0 0 15px 0 #42b983;
+}
+/*轮播图下方指示符颜色*/
+.carousel-indicators li{
+	background-color:#ffa500 !important;
+}
+.carousel-indicators .active{
+	background-color:#42b983 !important;
+}
+/*pdf框*/
+.pdf {
+	width: 100% !important;
+	height: 600px;
+}
+/*区块引用*/
+blockquote {
+	background-color: #efefef !important;
+	height: 45px !important;
+	display: flex !important;
+	align-items: center !important;
+}
+/*标题外边框*/
+h1, h2, h3, h4, h5, h6{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
