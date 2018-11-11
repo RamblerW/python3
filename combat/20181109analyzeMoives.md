@@ -1,6 +1,6 @@
 > 收集2018年的电影数据，并对其进行整合、分析。
 
-**关键词**：python3、tuShare、pyecharts、词云图、selenium、jupyter notebook、charles
+**关键词**：python3 、 tuShare 、 pyecharts 、 词云图 、 selenium 、 jupyter notebook 、 charles
 
 ### 00. 数据获取
 
