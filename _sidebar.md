@@ -4,6 +4,6 @@
 
 - 学习
   - [基础 | Python3 学习笔记](study/python3.md)
-  - [库| pandas 学习笔记](study/pandas.md)
+  - [库 | pandas 学习笔记](study/pandas.md)
   - [爬虫 | 崔庆才《Python3网络爬虫实战》](study/spiderCuiQingcai.md)
 - [A & Q](questionAndAnswer.md)
