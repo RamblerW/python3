@@ -1,6 +1,6 @@
 > 爬取了王者荣耀比赛数据，并对其进行整合、分析。
 
-**关键词**：python3 、 王者荣耀 、charles、 mongoDB 、 pandas、pyecharts
+**关键词**：python3、王者荣耀、charles、mongoDB、pandas、pyecharts
 
 ### 00. 数据总览
 
@@ -44,3 +44,4 @@
 ---
 
 源代码：https://github.com/RamblerW/python3/tree/master/code/_20181126_analyze_pvp
+

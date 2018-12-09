@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>RamblerW</title>
+  <title>Python3 | RamblerW</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -14,21 +14,20 @@
   <div id="app">Loading ...</div>
   <script>
     window.$docsify = {
-        name: '',
-        repo: 'https://github.com/ramblerw/python3',
-        // coverpage: true,
-        autoHeader: true,
-        loadSidebar: true,
-        loadNavbar: true,
-        subMaxLevel: 4,
-        auto2top: true,
-        homepage: 'README.md',
-        basePath: 'https://ramblerw.github.io/python3/',
-        search: {
-            // paths: 'https://ramblerw.github.io/python3/',
-            placeholder: 'Search for you',
-            noData: 'No Results'
-        }
+      name: '',
+      repo: 'https://github.com/ramblerw/python3',
+      maxLevel: 2,
+      loadSidebar: true,
+      subMaxLevel: 4,
+      auto2top: true,
+      homepage: 'README.md',
+      // 直接渲染其他域名的文档
+      basePath: 'https://ramblerw.github.io/python3/',
+      search: {
+        paths: 'https://ramblerw.github.io/python3/',
+        placeholder: 'Type to search',
+        noData: 'No Results!'
+      }
     }
   </script>
   <script src="//unpkg.com/docsify"></script>

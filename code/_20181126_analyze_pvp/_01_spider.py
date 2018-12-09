@@ -399,12 +399,12 @@ def getDetailInfoCount():
         return count
 
 if __name__ == '__main__':
-    TOKEN = 'UGFbh8ed'
+    TOKEN = 'xxxxxxxx'
     # total = 10000 # 总共取1万条数据
     total = 100000
     startDate = '2018-11-01'
-    startRoleId = '1225872175'
-    startUserId = '360083271'
+    startRoleId = 'XXXXXX'
+    startUserId = 'XXXXXX'
     # 获取master的最后一条数据
     lastMasterInfo = getLastMasterInfo()
     if(lastMasterInfo != ''):
