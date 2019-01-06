@@ -13,7 +13,7 @@
 
 统计了各游戏模式的场次，使用 pyecharts 绘制了条形图，见下。
 
-![img](../resources/img/20181208analyzePVP/01gameCountByType.png)
+![img](../resources/img/combat/20181208analyzePVP/01gameCountByType.png)
 
 如图，排位赛和无限乱斗场次数量遥遥领先，看来大家还是喜欢玩这2种模式啊。
 
@@ -21,9 +21,9 @@
 
 分别按小时、按周统计了玩家在线时间（取每场比赛的开始时间），绘制了折线图，见下。
 
-![img](../resources/img/20181208analyzePVP/02onlineTimeByHour.png)
+![img](../resources/img/combat/20181208analyzePVP/02onlineTimeByHour.png)
 
-![img](../resources/img/20181208analyzePVP/03onlineTimeByWeek.png)
+![img](../resources/img/combat/20181208analyzePVP/03onlineTimeByWeek.png)
 
 看着这个统计结果，还是有点意外的。每天的在线高峰期竟然是在中午12点，难道……是因为小学生们放学了吗🤔。按周统计的结果中，周六是在线高峰期倒是可以理解，但周日玩家这么少，意外 +1 啊——难道……是因为小学生们要赶作业了🤔🤔
 
@@ -31,9 +31,9 @@
 
 按各英雄上场次数进行统计，以王者荣耀的 logo 作为底图，绘制了词云图。
 
-![img](../resources/img/20181208analyzePVP/pvp.jpg)
+![img](../resources/img/combat/20181208analyzePVP/pvp.jpg)
 
-![img](../resources/img/20181208analyzePVP/04theBestPopularHero.jpg)
+![img](../resources/img/combat/20181208analyzePVP/04theBestPopularHero.jpg)
 
 出场率最高的，后裔咯——不知道是否符合你的预期。
 

@@ -9,19 +9,19 @@
 ### 01. 人气Top10
 先看看人气最高（场均人次最多）的电影有哪些⬇⬇⬇
 
-![img](../resources/img/20181109analyzeMoives/01PopularityTop10.png)
+![img](../resources/img/combat/20181109analyzeMoives/01PopularityTop10.png)
 
 ### 02. 豆瓣评分Top10
 选取了豆瓣评分最高的10部电影绘制了条形图，见下。
 
-![img](../resources/img/20181109analyzeMoives/02DoubanScoreTop10.png)
+![img](../resources/img/combat/20181109analyzeMoives/02DoubanScoreTop10.png)
 Top10中，评分整体还是比较接近的，中美电影各占据半壁江山。
 
 ### 03. 票房Top10
 
 接下来再看个更现实的指标，票房Top10，见下。
 
-![img](../resources/img/20181109analyzeMoives/03AmountTop10.png)
+![img](../resources/img/combat/20181109analyzeMoives/03AmountTop10.png)
 
 嗯，这一年好像没少看电影，我为4部做过贡献……
 
@@ -37,7 +37,7 @@ Top10中，评分整体还是比较接近的，中美电影各占据半壁江山
 **口碑指数/最高口碑 * 50 + 最低价/价格 * 30 + (平均时长-abs(时长-平均时长))/平均时长 * 20**
 算出74部电影各自的分数后，取分数最高的10部电影绘制了条形图，见下。
 
-![img](../resources/img/20181109analyzeMoives/04BestTop10.png)
+![img](../resources/img/combat/20181109analyzeMoives/04BestTop10.png)
 
 感觉绝大部分都比较陌生……尤其这个“奇迹男孩”，竟然100分！！！有时间了看看去。
 
@@ -45,7 +45,7 @@ Top10中，评分整体还是比较接近的，中美电影各占据半壁江山
 
 按上映月份统计了一下，虽然数据少，还是能看出来一点东西的。统计图表见下。
 
-![img](../resources/img/20181109analyzeMoives/05MoviesCountByMonth.png)
+![img](../resources/img/combat/20181109analyzeMoives/05MoviesCountByMonth.png)
 
 除了9月和10月外，其他月份好像都比较平庸。想了想，9月是暑假，是不是10月的电影都抢档期到9月去播放了……
 
@@ -53,7 +53,7 @@ Top10中，评分整体还是比较接近的，中美电影各占据半壁江山
 
 就这么多数据，想想还能干什么……看看各国家电影数量吧。按国家（港澳台和大陆统计到了一起）统计电影数量后绘制了地图，见下。
 
-![img](../resources/img/20181109analyzeMoives/06MoivesCountByCountries.png)
+![img](../resources/img/combat/20181109analyzeMoives/06MoivesCountByCountries.png)
 
 如图所示，电影数量方面，我国和美国遥遥领先。
 
@@ -61,7 +61,7 @@ Top10中，评分整体还是比较接近的，中美电影各占据半壁江山
 
 不是说国产电影质量不行吗，要不看看各国家/地区的豆瓣评分平均值吧。按国家/地区计算电影均分后绘制了条形图，见下。
 
-![img](../resources/img/20181109analyzeMoives/07MoviesScoreByCountries.png)
+![img](../resources/img/combat/20181109analyzeMoives/07MoviesScoreByCountries.png)
 
 emm……大陆倒3，香港倒2……看来质量是有待提高啊……
 
@@ -69,7 +69,7 @@ emm……大陆倒3，香港倒2……看来质量是有待提高啊……
 ### 08. 各类型电影占比
 
 接下来，看一下当前什么类型的电影比较火。按各类型电影占比绘制了饼图（因1部电影会有多个类型，所以总和会大于100%，而且前几名的占比有点高，取前几名的数据在一个饼图里也盛不下，所以绘制了下面这么一幅饼图）。
-![img](../resources/img/20181109analyzeMoives/08MoviesRateByType.png)
+![img](../resources/img/combat/20181109analyzeMoives/08MoviesRateByType.png)
 
 （跟一堆甜甜圈似的，看的我都饿了）
 
@@ -79,7 +79,7 @@ emm……大陆倒3，香港倒2……看来质量是有待提高啊……
 
 统计一下各演员分别拍了多少部电影吧。以python的logo为底图，绘制了词云图，如下。
 
-![img](../resources/img/20181109analyzeMoives/09MoviesCountByActor.jpg)
+![img](../resources/img/combat/20181109analyzeMoives/09MoviesCountByActor.jpg)
 
 产量较高的有：徐峥、于和伟、大鹏……
 
@@ -87,7 +87,7 @@ emm……大陆倒3，香港倒2……看来质量是有待提高啊……
 
 看完了各主演的产量，再看看各导演的产量呗。看到统计结果，我吃了一惊，所有的导演都很专一，产量都是1——好像也没必要画统计图了，原汁原味的DataFrame表格了解一下？见下。
 
-![img](../resources/img/20181109analyzeMoives/10MoivesCountByDirector.png)
+![img](../resources/img/combat/20181109analyzeMoives/10MoivesCountByDirector.png)
 
 ### 写在最后
 

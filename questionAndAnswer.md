@@ -57,6 +57,24 @@ line = pyecharts.Line("多折线图")
 for item in df1.columns:
     line.add(item,df1.index.tolist(),df1[item].tolist(),is_datazoom_show=True)
     page.add(line)
-page
+```
+
+#### Q：requests获取到的html页面中，汉字显示为\x
+
+R：汉字被进行了16进制编码
+
+A：`respose.content.decode('utf-8')`
+
+#### Q：Flask跨域的问题
+
+A：
+
+ - 下载flask_cors包：`pip3 install flask-cors`
+ - 使用flask_cors的CORS，代码示例：
+
+```python
+from flask_cors import *
+app = Flask(__name__)
+CORS(app, supports_credentials=True)
 ```
 

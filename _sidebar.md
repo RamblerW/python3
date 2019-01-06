@@ -1,9 +1,12 @@
 - 实战
   - [数据分析 | 2018全年电影](combat/20181109analyzeMoives.md)
   - [数据分析 | 王者荣耀比赛记录](combat/20181208analyzePVP.md)
-
 - 学习
   - [基础 | Python3 学习笔记](study/python3.md)
   - [库 | pandas 学习笔记](study/pandas.md)
   - [爬虫 | 崔庆才《Python3网络爬虫实战》](study/spiderCuiQingcai.md)
+  - [框架 | Django](study/django.md)
+- 记录
+  - [抓包 | Android7.0下charles无法抓包APP的https请求](record/android7.md)
+  - [爬虫 | 各网站爬取方式](record/spiderWebsite.md)
 - [A & Q](questionAndAnswer.md)
