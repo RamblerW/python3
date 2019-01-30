@@ -78,3 +78,10 @@ app = Flask(__name__)
 CORS(app, supports_credentials=True)
 ```
 
+#### Q：最新版的`lxml`中没有`etree`
+
+```python
+import lxml.html
+etree = lxml.html.etree
+```
+

@@ -1,11 +1,11 @@
-### 01. 怎样解决javaScript渲染的问题
+#### 01. 怎样解决javaScript渲染的问题
 
 - 分析Ajax请求
 - Selenium / WebDriver
 - Splash
 - PyV8、Ghost.py
 
-### 02. Urllib：Python内置的HTTP请求库【==建议使用Requests代替==】
+#### 02. Urllib：Python内置的HTTP请求库【==建议使用Requests代替==】
 
 - 包含的模块
   - `urllib.request`：请求模块
@@ -82,7 +82,7 @@
       print(urljoin('http://www.baidu.com', '?category=2#comment'))
       ```
 
-### 03. Requests：Python实现的基于urllib3的HTTP库
+#### 03. Requests：Python实现的基于urllib3的HTTP库
 
 - get请求
 
@@ -111,12 +111,15 @@
 
   ```python
   import requests
+  import json
   
   data = {'name': 'germey', 'age': '22'}
   headers = {
       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
   }
   response = requests.post("http://httpbin.org/post", data=data, headers=headers)
+  # 如果body需要json形式，需要对data做处理
+  # data = json.dumps(data)
   print(response.json())
   ```
 
@@ -199,7 +202,7 @@
     - `requests.get('http://120.27.34.24:9001', auth=('user', '123'))`
   - 异常处理：==建议先捕获子类异常，最后捕获父类异常==
 
-### 04. 正则表达式：字符串的一种过滤逻辑
+#### 04. 正则表达式：字符串的一种过滤逻辑
 
 - 常见匹配模式
 
@@ -243,7 +246,7 @@
 - `re.sub(pattern, repl, string)`：替换字符串中所有匹配的子串后，返回替换后的字符串
 - `re.compile(pattern, flags=0)`：将正则表达式编译成正则对象，以==便于复用==
 
-### 05. BeautifulSoup：灵活又方便的网页解析库
+#### 05. BeautifulSoup：灵活又方便的网页解析库
 
 - 解析器
 
@@ -309,7 +312,7 @@
   - ==如果对CSS选择器熟悉建议使用select()==
   - ==记住常用的获取属性和文本值的方法==
 
-### 06. PyQuery： 类JQuery的Python库
+#### 06. PyQuery： 类JQuery的Python库
 
 - 初始化：字符串初始化、URL初始化、文件初始化
 
@@ -361,7 +364,7 @@
   - 获取第二个元素：`doc('li:nth-child(2)')`
   - 获取包含指定文本的元素：`doc('li:contains(second)')`
 
-### 07. Selenium：自动化测试工具
+#### 07. Selenium：自动化测试工具
 
 - 基本使用
 
