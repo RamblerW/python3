@@ -1,3 +1,6 @@
+body {
+	overflow: auto !important;
+}
 /*轮播图下边框*/
 .carousel {
     margin: 30px;
